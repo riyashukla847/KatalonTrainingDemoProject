@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuiteDemo1,,,,09-04-2024 12:24:56,09-04-2024 12:24:57,1.063s,FAILED
+,,,,,,,
+Test Cases/Demo/ScriptModeDemo,,,,09-04-2024 12:24:56,09-04-2024 12:24:57,0.832s,FAILED
+"openBrowser("""")",,,,09-04-2024 12:24:56,09-04-2024 12:24:57,0.511s,FAILED

@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuiteDemo1,Edge Chromium 123,,,12-04-2024 10:15:41,12-04-2024 10:18:29,2m - 47.503s,FAILED
+,,,,,,,
+Test Cases/Demo/RecordDemo,Edge Chromium 123,,,12-04-2024 10:15:42,12-04-2024 10:16:34,52.258s,FAILED
+"openBrowser("""")",Edge Chromium 123,,,12-04-2024 10:15:43,12-04-2024 10:15:52,9.140s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Edge Chromium 123,,,12-04-2024 10:15:52,12-04-2024 10:15:56,3.854s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Edge Chromium 123,,,12-04-2024 10:15:56,12-04-2024 10:15:58,1.751s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Edge Chromium 123,,,12-04-2024 10:15:58,12-04-2024 10:15:59,1.216s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Edge Chromium 123,,,12-04-2024 10:15:59,12-04-2024 10:16:00,1.062s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Edge Chromium 123,,,12-04-2024 10:16:00,12-04-2024 10:16:01,1.485s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Edge Chromium 123,,,12-04-2024 10:16:01,12-04-2024 10:16:34,32.698s,FAILED
+,,,,,,,
+Test Cases/Demo/ManualModeDemo,Edge Chromium 123,,,12-04-2024 10:16:34,12-04-2024 10:17:29,54.693s,FAILED
+"openBrowser("""")",Edge Chromium 123,,,12-04-2024 10:16:34,12-04-2024 10:16:42,7.668s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Edge Chromium 123,,,12-04-2024 10:16:42,12-04-2024 10:16:57,15.181s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_Username_username""), ""Admin"")",Edge Chromium 123,,,12-04-2024 10:16:57,12-04-2024 10:17:29,31.625s,FAILED
+,,,,,,,
+Test Cases/Demo/ScriptModeDemo,Edge Chromium 123,,,12-04-2024 10:17:29,12-04-2024 10:18:29,59.911s,FAILED
+"openBrowser("""")",Edge Chromium 123,,,12-04-2024 10:17:29,12-04-2024 10:17:37,7.567s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Edge Chromium 123,,,12-04-2024 10:17:37,12-04-2024 10:17:57,20.766s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_username""), ""Admin"")",Edge Chromium 123,,,12-04-2024 10:17:57,12-04-2024 10:18:29,31.406s,FAILED

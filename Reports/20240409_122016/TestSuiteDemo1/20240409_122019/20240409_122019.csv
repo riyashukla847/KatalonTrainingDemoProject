@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuiteDemo1,Edge Chromium 123,,,09-04-2024 12:20:35,09-04-2024 12:21:24,48.953s,FAILED
+,,,,,,,
+Test Cases/Demo/ScriptModeDemo,Edge Chromium 123,,,09-04-2024 12:20:36,09-04-2024 12:21:24,48.747s,FAILED
+"openBrowser("""")",Edge Chromium 123,,,09-04-2024 12:20:36,09-04-2024 12:20:40,4.065s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Edge Chromium 123,,,09-04-2024 12:20:40,09-04-2024 12:20:53,12.764s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_username""), ""Admin"")",Edge Chromium 123,,,09-04-2024 12:20:53,09-04-2024 12:21:24,31.465s,FAILED

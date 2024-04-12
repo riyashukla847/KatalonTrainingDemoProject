@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DataDrivenTestingDemo,Chrome 120.0.0.0,,,12-04-2024 10:28:06,12-04-2024 10:30:03,1m - 56.795s,FAILED
+,,,,,,,
+Test Cases/Demo/DataDrivenTestingDemo,Chrome 120.0.0.0,,,12-04-2024 10:28:07,12-04-2024 10:28:57,50.634s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,12-04-2024 10:28:07,12-04-2024 10:28:15,8.094s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 120.0.0.0,,,12-04-2024 10:28:15,12-04-2024 10:28:44,29.050s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_username""), username)",Chrome 120.0.0.0,,,12-04-2024 10:28:44,12-04-2024 10:28:47,2.974s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_password""), password)",Chrome 120.0.0.0,,,12-04-2024 10:28:47,12-04-2024 10:28:48,0.813s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""))",Chrome 120.0.0.0,,,12-04-2024 10:28:48,12-04-2024 10:28:51,2.427s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_Tran Anh""))",Chrome 120.0.0.0,,,12-04-2024 10:28:51,12-04-2024 10:28:53,2.278s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_Logout""))",Chrome 120.0.0.0,,,12-04-2024 10:28:53,12-04-2024 10:28:56,2.923s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,12-04-2024 10:28:56,12-04-2024 10:28:57,1.342s,PASSED
+,,,,,,,
+Test Cases/Demo/DataDrivenTestingDemo,Chrome 120.0.0.0,,,12-04-2024 10:28:57,12-04-2024 10:30:03,1m - 5.497s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,12-04-2024 10:28:57,12-04-2024 10:29:03,5.467s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 120.0.0.0,,,12-04-2024 10:29:03,12-04-2024 10:29:24,20.822s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_username""), username)",Chrome 120.0.0.0,,,12-04-2024 10:29:24,12-04-2024 10:29:27,3.750s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_password""), password)",Chrome 120.0.0.0,,,12-04-2024 10:29:27,12-04-2024 10:29:28,0.780s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""))",Chrome 120.0.0.0,,,12-04-2024 10:29:28,12-04-2024 10:29:31,2.937s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_Tran Anh""))",Chrome 120.0.0.0,,,12-04-2024 10:29:31,12-04-2024 10:30:03,31.697s,FAILED
